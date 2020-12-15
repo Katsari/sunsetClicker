@@ -1,4 +1,6 @@
-# sunsetclicker
+# Sunset Clicker
+
+A sunset-beach-themed game that measures how fast you can click, made with Vue.js.
 
 ## Project setup
 ```
