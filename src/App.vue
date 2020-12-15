@@ -1,7 +1,13 @@
 <template>
   <div class="flex-container">
     <section id="sun">
-      <button type="button" @click="updateCount" v-if="secs > 0">
+      <button
+        type="button"
+        @keydown.enter.prevent
+        @keydown.space.prevent
+        @click="updateCount"
+        v-if="secs > 0"
+      >
         &#8594; Click to start &#8592;
       </button>
     </section>
